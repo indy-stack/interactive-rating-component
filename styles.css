@@ -28,7 +28,6 @@ body {
     height: 100%;
     width: 100%;
     font-family: var(--main-font);
-    background-color: var(--Very-Dark-Blue);
 }
 
 body {
@@ -128,15 +127,21 @@ body {
 }
 
 .rating-item:hover {
-   background-color: var(--Light-Grey);
+   background-color: var(--Orange);
    color: var(--White);
    cursor: pointer;
 }
 
-.active,
-.rating-item:active {
-    background-color: var(--Orange);
+.rating-item:focus
+{
+    background-color: var(--Medium-Grey);
     color: var(--White);
+}
+
+.rating-item.active {
+    background-color: var(--Medium-Grey);
+    color: var(--White);
+    cursor: pointer;
 }
 
 .btn {

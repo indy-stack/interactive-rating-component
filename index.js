@@ -1,7 +1,7 @@
 const contentEl = document.getElementById("content");
 const ratingEls = document.querySelectorAll(".rating-item");
 const btnEl = document.getElementById("btn");
-let selectedValue = "3";
+let selectedValue = "";
 console.log(selectedValue);
 
 ratingEls.forEach( el => {
